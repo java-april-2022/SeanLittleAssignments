@@ -13,5 +13,11 @@
 <h1>Daikichi Routes</h1>
 <h2>Welcome!</h2>
 
+<h2>Hopper's Receipt</h2>
+<h3>Customer Name: <c:out value="${name}"/></h3>
+<p>Item Name: <c:out value="${itemName}"/></p>
+<p>Price: $<c:out value="${price}"/></p>
+<p>Description: <c:out value="${description}"/></p>
+<p>Vendor: <c:out value="${vendor}"/></p>
 </body>
 </html>
