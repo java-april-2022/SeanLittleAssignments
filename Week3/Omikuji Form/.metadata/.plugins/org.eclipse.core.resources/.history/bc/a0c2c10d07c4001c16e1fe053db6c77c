@@ -1,0 +1,13 @@
+package com.sean.omikuji.models;
+
+public class Omikuji {
+	
+	public String city;
+	public String person;
+	public String hobby;
+	public String livingThing;
+	public String niceThing;
+	
+	public Omikuji(String city, )
+
+}

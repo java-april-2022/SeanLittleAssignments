@@ -1,0 +1,5 @@
+package com.sean.omikuji.models;
+
+public class Omikuji {
+
+}
