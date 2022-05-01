@@ -27,7 +27,7 @@
 			<h1 class="display-4 survey text-info">Edit Your Expense</h1>
 			<div class="card-body bg-secondary text-light">
 
-				<form:form action="/create" method="put" modelAttribute="newExpense">
+				<form:form action="/create" method="post" modelAttribute="newExpense">
 					<p>
 						<form:label path="name" class="col-sm-2 col-form-label left">Expense</form:label>
 						<form:input path="name" class="form-control"/>
